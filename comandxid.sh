@@ -4,6 +4,7 @@
 #OOH KAMU REQODE PRO YA😂
 #BAGAIMANA JADI MASTAH KALO TOOL AJA REQOD 😂
 
+#copyright©MR_XID 23/12/2018
 clear
 #colorsblue='\e[1;34m'
 green='\e[1;32m'
@@ -13,8 +14,6 @@ red='\e[1;31m'
 white='\e[1;37m'
 yellow='\e[1;33m'
 lightgreen='\e[1;32m'
-NOW=`date "+%d.%m.%Y"`
-TIME=`date "+%H:%M"`
 
 figlet -f slant "MR_XiD" |lolcat
 echo                    " [======<>======<>======<>======]"|lolcat
@@ -22,8 +21,8 @@ echo                    " [Author   :  MR_XiD            ]"|lolcat
 echo                    " [Team     : D35TR0Y SQUAD      ]"|lolcat
 echo                    " [Note     : Jangan reqode ya   ]"|lolcat
 echo                    " [Thansk to: All member         ]"|lolcat
-echo                    " [Date     : " $NOW | lolcat    ]"|lolcat
-echo                    " [Time     : " $TIME | lolcat   ]"|lolcat
+echo                    " [thanks to: I T A              ]"|lolcat
+echo                    " [Note2    : Copyright©MR_XID   ]"|lolcat
 echo                    " [======<>======<>======<>======]"|lolcat
 
 echo "============================================"|lolcat
@@ -69,10 +68,8 @@ echo " 20.INSTALL MESTAPLOIT"
 echo "============================================"|lolcat
 echo " 00.Exit"
 echo "============================================"|lolcat
-trap ctrl_c INT
-ctrl_c()
-{
-read -p "Silahkan Pilih :" gg
+echo -e "╭─[PILIH NOMORNYA]"
+read -p "╰─root@./MR_XID=" gg;
 
 if [ $gg = 1 ] || [ $gg = 1 ]
 then
