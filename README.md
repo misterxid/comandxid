@@ -1,1 +1,1 @@
-# comandxid
+# INSTALLERCOMAND
